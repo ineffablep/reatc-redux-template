@@ -27,8 +27,8 @@ notifications:
 - provider: Email
   to:
   - housecor@gmail.com
-  subject: 'Build failed: react-slingshot'
-  message: The continuous integration build failed. See https://ci.appveyor.com/project/CoryHouse/react-slingshot/ for details.
+  subject: 'Build failed: react-redux-template'
+  message: The continuous integration build failed. 
   on_build_success: false
   on_build_failure: true
   on_build_status_changed: false
